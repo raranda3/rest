@@ -23,7 +23,7 @@ public class FactorialResource {
       public String factorial(@QueryParam("base") long base) {
        
              return Long.toString(rfactorial(base));
-            //return Long.toString(factorial(base - 1) * base);
+            
         }
             
       
